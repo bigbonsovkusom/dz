@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Raleway-Bold";
+	src: url("../fonts/Raleway-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Raleway-ExtraLight";
+	src: url("../fonts/Raleway-ExtraLight.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Exo2-Black";
+	src: url("../fonts/exo/Exo2-Black.ttf");
+	font-style: normal;
+	font-weight: normal;
+}@font-face {
+	font-family: "Exo2-Bold";
+	src: url("../fonts/exo/Exo2-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}@font-face {
+	font-family: "Exo2-ExtraLight";
+	src: url("../fonts/exo/Exo2-ExtraLight.ttf");
+	font-style: normal;
+	font-weight: normal;
+}@font-face {
+	font-family: "Exo2-Regular";
+	src: url("../fonts/exo/Exo2-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}@font-face {
+	font-family: "Exo2-Light";
+	src: url("../fonts/exo/Exo2-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}

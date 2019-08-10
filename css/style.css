@@ -1,0 +1,190 @@
+body {
+	background-color: #404040;
+}
+
+.logo {
+	padding-top: 5px;
+	display: inline-flex;
+}
+.logo img {
+	width: 80px;
+	padding:0;
+	display: inline-block;
+}
+
+.logo p {
+	font-family: "Exo2-Regular", sans-serif;
+	color: white;
+	text-transform: uppercase; 
+	margin: 10px 0 0 10px;
+}
+
+.container {
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+
+}
+
+.main {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+nav {
+	width: 900px;
+	padding-top: 35px;
+	text-align: end;
+	font-family: "Exo2-Regular", sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+nav a {
+	margin-left: 30px;
+}
+
+nav a:hover {
+	color: #3bac4c;
+
+}
+
+.middle_top {
+	display: block;
+	height: auto;
+	text-align: center;
+	position: relative;
+}
+
+.middle_top p {
+	margin-top: 200px;
+	font-family: "Exo2-Regular", sans-serif;
+	font-size: 60px;
+	color: white;
+}
+
+.middle_top span {
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+#second_title {
+	font-family: "Exo2-Regular", sans-serif;
+	font-size: 30px;
+	color: white;
+	margin: auto;
+	width: 500px;
+}
+
+
+.middle_top a {
+	padding: 10px;
+	font-family: "Exo2-Regular", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline-block;
+	border: 2px white solid;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.middle_top a:hover {
+	color: #3bac4c;
+	border: 2px #3bac4c solid;
+	border-radius: 10px;
+}
+
+
+.second_cont {
+	width: 1170px;
+	background-size: cover;
+	height: 100vh;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.second_menu {
+	display: -webkit-inline-box;
+}
+
+.second_menu > li{
+	margin: 40px 75px 0 75px;
+}
+
+.qw > a {	
+	line-height: 1;
+	font-family: "Exo2-Regular", sans-serif;
+	text-transform: uppercase;
+	filter: brightness(0) invert(1);
+}
+
+#about, #partners, #teachers, #work {
+	width: 40px;
+}
+
+.second_menu p {
+	margin-top: 10px;
+}
+
+.description {
+	text-transform: initial;
+	display: inline-block;
+	width: 120px;
+	font-size: 12px;
+}
+
+
+.qw a:after {
+	display: block;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #1D7D4F; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.2s ease-out; /*задаём время анимации*/
+}
+
+.qw a:hover:after,
+.qw a:focus:after {
+	width: 100%;
+}
+
+.qw a:hover {
+	filter: initial;
+	color: #1D7D4F;
+}
+
+.first_cont {
+	width: 1170px;
+	background-size: cover;
+	height: 100vh;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.title_box {
+	color: white;
+	font-family: "Exo2-Regular", sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.box_one img {
+	display: inline-block;
+	width: 370px;
+}
+
+.box_one a {
+	display: inline-grid;
+}
+
+.box_one h2 {
+	position: absolute;
+	font-size: 18px;
+	top: 50px;
+	left: 0;
+}
